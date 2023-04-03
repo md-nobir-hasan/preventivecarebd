@@ -13,6 +13,7 @@
     {{-- Header  --}}
     @include('frontend.partials.footer')
 
+    {{-- custom jd  --}}
     @stack('js')
 
 </body>
