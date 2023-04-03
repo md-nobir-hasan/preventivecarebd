@@ -13,4 +13,4 @@ jobs:
       with:
         server: ftp.foodgharbd.com
         username: preventivecare@preventivecarebd.xyz
-        password: ${{ secrets.ftp_password }}
+        password: ${{ secrets.FTP_PASSWORD }}
