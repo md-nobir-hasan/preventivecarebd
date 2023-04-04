@@ -16,7 +16,6 @@ class CategoryController extends Controller
     public function index()
     {
         $category=Category::getAllCategory();
-        // return $category;
         return view('backend.pages.category.index')->with('categories',$category);
     }
 
