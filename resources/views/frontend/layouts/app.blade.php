@@ -22,6 +22,7 @@
     {{-- Header  --}}
     @include('frontend.partials.footer')
 
+    {{-- custom js  --}}
     @stack('js')
 
 </body>

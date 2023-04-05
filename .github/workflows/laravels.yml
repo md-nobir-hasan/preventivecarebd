@@ -12,5 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.foodgharbd.com
-        username: preventivecare@preventivecarebd.xyz
+        username: preventivecarebd@preventivecarebd.xyz
         password: ${{ secrets.ftp_password }}
