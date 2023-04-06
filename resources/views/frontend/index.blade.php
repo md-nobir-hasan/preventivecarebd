@@ -47,7 +47,7 @@
         </div>
         <div class="service-main-column bg-s">
 
-            <div class="service-title bg-color flex-column" style="text-align: left">
+            <div class="service-title bg-color flex-column" style="text-align: left:justify-content: space-around;">
                 <div>
                     <h2 style="color: black;font-size: 19px; padding: 0px 10px;">
                         🩺ব্লাড প্রেসার পরিমাপ নিয়ে চিন্তিত❓
