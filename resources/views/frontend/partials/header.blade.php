@@ -634,6 +634,9 @@ display: none;
     color: white;
 }
                                         /*=======order-section end=========*/
+    .md-ml38{
+        margin-left: 38px;
+    }
 
                             /* Responsive design start here */
 
@@ -692,6 +695,9 @@ display: none;
  @media only screen and (max-width: 767px){
     .why-order{
         display: block;
+    }
+    .md-ml38{
+        margin-left: 0px;
     }
 
     .why-order .left-col{
