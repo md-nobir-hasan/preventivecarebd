@@ -131,7 +131,7 @@
             </div>
             <div style="display: flex; justify-content: center; padding-top: 75px">
                 <div class="box-shadow border border-ra bg-white " style="padding: 15px" >
-                    <img class="sefty-device-img max-md-h500 max-sm-h300 h800" src="/images/banner.jpg" alt="জেনেক্স ডিজিটাল বিপি মনিটর">
+                    <img class="sefty-device-img max-md-h500 max-sm-h300 h800" src="https://foodgharbd.com/banner.jpg" alt="জেনেক্স ডিজিটাল বিপি মনিটর">
                 </div>
             </div>
             <div class="div-btn">
