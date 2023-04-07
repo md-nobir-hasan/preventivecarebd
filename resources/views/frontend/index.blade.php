@@ -6,15 +6,15 @@
     <div class="header-section">
         <div class="container">
             <div class="header-main-column">
-                <h1 class="header-title"><span>যারা নিজের এবং পরিবারের সুস্বাস্থ্যের জন্য নিয়মিত ফলমূল-শাকসবজি খান,</span>
-                    তাদের জন্য
+                <h1 class="header-title">
+                    <span>যারা বাবা-মা এবং নিজের সুস্বাস্থ্য নিয়ে চিন্তিত, তাদের জন্য</span>
                     <span class="hlight">অত্যন্ত কার্যকরী একটি ডিভাইস</span>
                 </h1>
             </div>
-            <h2 class="extra-title"><span>কোন রকম স্বাদ ও মানের পরিবর্তন ছাড়াই মাত্র ৮ মিনিটে</span> ফলমূল-শাকসবজি থেকে সকল
+            {{-- <h2 class="extra-title"><span>কোন রকম স্বাদ ও মানের পরিবর্তন ছাড়াই মাত্র ৮ মিনিটে</span> ফলমূল-শাকসবজি থেকে সকল
                 প্রকার
                 <span class="text-red">ক্ষতিকারক ফরমালিন/প্রিজারভেটিভস দূর করে গ্যারান্টি সহকারে</span>
-            </h2>
+            </h2> --}}
 
         </div>
     </div>
@@ -27,7 +27,7 @@
         <div class="container">
             <div class="video-main-column">
                 <h2 class="video-title">
-                   অটোমেটিক ডিজিটাল ব্লাড প্রেসার মনিটরের সম্পর্কে জানতে <span>নিচের ভিডিও সম্পূর্ণ দেখুন..</span>
+                   জেনেক্স ডিজিটাল বিপি মনিটর সম্পর্কে জানতে <span>নিচের ভিডিও সম্পূর্ণ দেখুন..</span>
                 </h2>
                 <div class="video-column">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/k8uU0eIA4UY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -43,7 +43,8 @@
     <div class="service-section ">
         {{-- <div class="container"> --}}
         <div class="btn-column animation-pulse" style="margin-top: 15px">
-            <a class="order-btn" href="#order-sec">পরিবারকে সুস্থ রাখতে অর্ডার করুন </a>
+            <a class="order-btn" href="#order-sec">অর্ডার করুন🚛
+            </a>
         </div>
         <div class="service-main-column bg-s">
 
@@ -71,7 +72,7 @@
 
             <div class="service-title">
                 <h2 class="" style="background: white; color:black;">
-                    কেন আপনার এই <span class="" style="color: blue">অটোমেটিক ডিজিটাল ব্লাড প্রেসার মনিটর</span> ব্যাবহার করা উচিৎ
+                    কেন আপনার এই <span class="" style="color: blue">জেনেক্স ডিজিটাল বিপি মনিটর</span> ব্যাবহার করা উচিৎ
                 </h2>
             </div>
 
@@ -128,6 +129,11 @@
                     </div>
                 </div> --}}
             </div>
+            <div style="display: flex; justify-content: center; padding-top: 75px">
+                <div class="box-shadow border border-ra bg-white " style="padding: 15px" >
+                    <img class="sefty-device-img max-md-h500 max-sm-h300 h800" src="{{ asset('images/banner.jpg') }}" alt="sefty-device">
+                </div>
+            </div>
             <div class="div-btn">
                 <span>ব্যবহারের নিয়ম</span>
             </div>
@@ -150,7 +156,7 @@
 
     <!--///////-sefty-device-section-start-///////-->
 
-    <div class="sefty-device-section">
+    {{-- <div class="sefty-device-section">
         <div class="container">
             <div class="sefty-device-main box-shadow border border-ra">
                 <div class="flex-column">
@@ -158,28 +164,19 @@
                         <img class="sefty-device-img" src="{{ asset('images/1.jpg') }}" alt="sefty-device">
                     </div>
                     <div class="product-details-column">
-                        {{-- <h2>Honey Nuts - <span>মধুময় বাদাম</span>
+                        <h2>Honey Nuts - <span>মধুময় বাদাম</span>
                             এর উপকারিতা।</h2>
                         <p>✔️ রক্তে কোলেস্টেরল কমানোর পাশাপাশি ক্যান্সার সৃষ্টি হওয়া থেকে বাধা দেয় এটি।</p>
                         <p>✔️ শরীরের রোগ প্রতিরোধ ক্ষমতা বৃদ্ধিসহ হার্ট অ্যাটাক ও স্টোকের আশংকা কমায়। </p>
                         <p>✔️ চেহারায় লাবণ্য ধরে রাখতে খুবই কার্যক</p>
                         <p>✔️ যারা শরী’র ফি’ট রাখতে চান তাদের জন্য খুবই উ’পকারী</p>
                         <p>✔️ স্মৃতিশক্তি বৃদ্ধি করে এবং তীক্ষ্ণ মেধা সম্পন্ন হতে সাহায্য করে।</p>
-                        <p>✔️ অকাল বা’র্ধক্য রোধে অত্যন্ত কার্যকর ভূমিকা রাখে।</p> --}}
-                        <div class="btn-column animation-pulse"
-                            style="width: 100% !important;
-                        margin: 0px !important;">
-                            <a class="order-btn except-btn" href="#order-sec"
-                                style="width: 100% !important;
-                            padding: 6px 19px;
-                            margin: 0px !important;">
-                                পরিবারকে সুস্থ রাখতে অর্ডার করুন </a>
-                        </div>
+                        <p>✔️ অকাল বা’র্ধক্য রোধে অত্যন্ত কার্যকর ভূমিকা রাখে।</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!--///////-sefty-device-section-End-///////-->
 
     <!--///////-DELEVERY-section-START-///////-->
@@ -236,14 +233,15 @@
                 </div>
             </div>
         </div>
-        <div class="btn-column animation-pulse">
-            <a class="order-btn" href="#order-sec">পরিবারকে সুস্থ রাখতে অর্ডার করুন </a>
+        <div class="btn-column animation-pulse fixed-bottom-right" id="orderbtn">
+            <a class="order-btn" href="#order-sec">অর্ডার করুন🚛
+            </a>
         </div>
     </div>
     <!--///////-why-choose-section-End-///////-->
 
     <!--///////-order-section-start-///////-->
-    <form action="{{ route('order.store') }}" method="POST">
+    <form action="{{ route('order.store') }}" method="POST" id="form">
         @csrf
         <div class="order-section">
             <div class="container" id="order-sec">
@@ -286,8 +284,9 @@
                                     </thead>
                                     <tbody class="order-details">
                                         <tr class="order-product">
-                                            <td><span><img src="img/product-img01.jpg" alt=""></span><span>
-                                                    পিউরিফায়ার ডিভাইস </span></td>
+                                            <td><span>
+                                                জেনেক্স ডিজিটাল বিপি মনিটর
+                                            </span></td>
                                             <td>
                                                 <h3><span>x1</span>{{ $price }}</h3>
                                             </td>

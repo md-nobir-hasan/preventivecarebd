@@ -634,13 +634,29 @@ display: none;
     color: white;
 }
                                         /*=======order-section end=========*/
-    .md-ml38{
-        margin-left: 38px;
-    }
+.md-ml38{
+    margin-left: 38px;
+}
+.fixed-bottom-right{
+    position: fixed;
+    bottom: 197px;
+    right: 10px;
+    z-index: 999;
+}
+.bg-white{
+    background: white;
+    color: black;
+}
+.h800{
+    height: 800px;
+}
 
-                            /* Responsive design start here */
+                    /* Responsive design start here */
 
  @media only screen and (max-width: 1024px){
+    .max-md-h500{
+        height: 500px;
+    }
     .service-section .service-single-column{
         width: 48%;
     }
@@ -693,6 +709,7 @@ display: none;
     }
  }
  @media only screen and (max-width: 767px){
+
     .why-order{
         display: block;
     }
@@ -758,6 +775,9 @@ display: none;
     }
  }
 @media only screen and (max-width: 640px){
+    .max-sm-h300{
+        height: 300px;
+    }
     .order-section .billing-details-column .billing-form {
     width: 95%;
     margin: 0 auto;
@@ -774,6 +794,7 @@ display: none;
     }
 }
 @media only screen and (max-width: 460px){
+
     .order-section .your-order-column td:nth-child(2n+1) {
 	width: 70%;
 }

@@ -12,7 +12,17 @@
 
     {{-- Header  --}}
     @include('frontend.partials.footer')
+<script>
+    const element = document.getElementById("form");
+    const orderbtn = document.getElementById("orderbtn");
 
+    let y = element.scrollHeight;
+
+
+    function height(){
+        // console.log(y,orderbtn.scrollHeight,window.scrollHeight );
+    }
+</script>
     @stack('js')
 
 </body>

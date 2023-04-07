@@ -36,7 +36,7 @@ class AppServiceProvider extends ServiceProvider
          view()->share('site_contact_info',$site_contact_info);
 
        }
-       view()->share('price','2990');
-         view()->share('with_dis','3990');
+       view()->share('price','2250');
+         view()->share('with_dis','2500');
     }
 }
