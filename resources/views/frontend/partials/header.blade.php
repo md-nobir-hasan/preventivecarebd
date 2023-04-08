@@ -24,12 +24,12 @@ a{
     .title1{
         background: blue;
         margin-top: 73px;
-        height: 53px;
         text-align: center;
         font-size: 32px;
         font-weight: bolder;
         color: white;
         border-radius: 8px;
+        padding: 10px 0px 10px 10px;
     }
     .w90{
         width: 90%;
@@ -37,6 +37,12 @@ a{
     .mx-auto {
         margin-right: auto!important;
         margin-left: auto!important;
+    }
+    .text-center{
+        text-align: center !important;
+    }
+    .text-blue{
+        color: blue !important;
     }
     .flex{
         display: flex;
@@ -160,7 +166,7 @@ animation-iteration-count: infinite;
                                         /*=======video-section start=========*/
 
 .video-section{
-
+    margin-top: 20px
 }
 .video-section .video-main-column{
     padding: 20px 20px;
