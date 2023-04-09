@@ -9,25 +9,28 @@
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: 'Hind Siliguri', sans-serif;
+    /* font-family: 'Hind Siliguri', sans-serif; */
+    font-family: 'Noto Sans Bengali', sans-serif;
 }
 a{
     text-decoration: none;
 }
 /* Common, Custom and reuseable css  */
     .title1{
-        background: blue;
+        background: #fff600;
         margin-top: 73px;
         text-align: center;
-        font-size: 32px;
+        font-size: 28px;
         font-weight: bolder;
-        color: white;
+        /* color: white; */
         border-radius: 8px;
         padding: 10px 0px 10px 10px;
     }
@@ -47,6 +50,16 @@ a{
     .flex{
         display: flex;
     }
+    .justify-center{
+        justify-content: center;
+    }
+    .justify-evenly{
+        justify-content: space-evenly;
+    }
+    .block{
+        display: block !important;
+    }
+
     .bg-color{
         background-color: #f4e386bd !important;
     }
@@ -118,19 +131,19 @@ animation-iteration-count: infinite;
 }
 .header-main-column{
     padding: 14px 0px 14px 0px;
-    background-color: #167ac6;
+    background-color:#fdff06;
     border-style: solid;
     border-color: #FF0000;
     border-radius: 10px;
     color: white;
 }
 .header-section .header-main-column .header-title{
-    color: #068D0E;
+    /* color: #068D0E; */
     font-family: "Hind Siliguri", Sans-serif;
     font-size: 47px;
     font-weight: 600;
     text-align: center;
-    color: white;
+    color: black;
     line-height: 57px;
 }
 .header-section .extra-title{
@@ -143,7 +156,7 @@ animation-iteration-count: infinite;
     margin: 0 auto;
     margin-top: 15px;
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 .hlight{
     color: #8affb3;
@@ -608,7 +621,7 @@ animation-iteration-count: infinite;
 }
 .delivery-free {
     margin-top: 0px;
-    background: #167ac6;
+    background: #8e01b7c2;
     padding: 10px;
     font-size: 22px;
     font-weight: bolder;
@@ -691,7 +704,7 @@ display: none;
 
  @media only screen and (max-width: 989px){
     .header-section .header-main-column .header-title{
-        font-size: 23px;
+        font-size: 27px;
         line-height: 35px;
         padding: 10px 0;
     }
