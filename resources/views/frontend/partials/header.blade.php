@@ -56,6 +56,10 @@ a{
     .justify-evenly{
         justify-content: space-evenly;
     }
+    .items-center{
+        justify-items: center;
+        align-items: center;
+    }
     .block{
         display: block !important;
     }
@@ -116,6 +120,17 @@ animation-timing-function: linear;
 animation-iteration-count: infinite;
 }
 
+/* contact section  */
+    .contact-div{
+        padding: 20px;
+        background: #a4ffca;
+        border-radius: 10px;
+        margin: 4px;
+        margin-bottom: 26px;
+    }
+    .contact-div a span{
+        margin-left: 13px;
+    }
 @keyframes animation-pulse {
     25% {
         transform: scale(1.1);
