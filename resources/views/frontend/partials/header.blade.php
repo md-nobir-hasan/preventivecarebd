@@ -185,6 +185,7 @@ animation-iteration-count: infinite;
     font-weight: bolder;
     color: white;
     border-radius: 34px;
+    padding-top: 7px;
 }
 .text-red{
     color: #f00;
