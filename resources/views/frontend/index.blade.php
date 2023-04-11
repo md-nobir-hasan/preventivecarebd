@@ -284,11 +284,11 @@
                             <div class="billing-form">
                                 <h2 class="main-title">Billing details</h2>
                                 <form action="">
-                                    <label for="name">আপনার সম্পূর্ন নাম: <abbr class="required"
+                                    <label for="name">আপনার নাম: <abbr class="required"
                                             title="required">*</abbr></label><br>
                                     <input type="text" id="name" name="name" value=""
                                         placeholder="পুরো নাম" required><br>
-                                    <label for="address">আপনার ঠিকানা: <abbr class="required"
+                                    <label for="address">আপনার সম্পূর্ন ঠিকানা: <abbr class="required"
                                             title="required">*</abbr></label><br>
                                     <input type="text" id="address" name="address" value=""
                                         placeholder="বাসা নং, রোড নং, জেলা, থানা" required><br>
