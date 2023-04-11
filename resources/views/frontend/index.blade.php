@@ -215,6 +215,7 @@
                 </div>
             </div>
         </div>
+        
     </div> --}}
     <div class="btn-column" style="margin-top:0px;">
         <span class="delivery-free animation-pulse"><span class="text-yellow">ডেলিভারি চার্জ ফ্রি</span> <br> পন্য হাতে পেয়ে
