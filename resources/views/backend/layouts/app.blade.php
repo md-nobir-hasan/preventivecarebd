@@ -32,10 +32,13 @@
         }
     </style>
     @stack('page_css')
+
+
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
     <div class="wrapper">
+
         <!-- Main Header -->
         @include('backend.partial.nav')
         <!-- Left side column. contains the logo and sidebar -->
@@ -51,6 +54,7 @@
     </div>
 
     <script src="{{ asset('js/app.js') }}"></script>
+
     @stack('third_party_scripts')
 
     @stack('page_scripts')

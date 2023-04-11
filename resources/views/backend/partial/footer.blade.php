@@ -4,7 +4,7 @@
     </div>
     <strong>Copyright &copy; 2021-{{ date('Y') }}
         Design and Developed by |
-        <a href="https://euitsols.com" target="_blank">
+        <a href="https://nobir-hasan.com" target="_blank">
            Md. Nobir Hasan
         </a>
 </footer>

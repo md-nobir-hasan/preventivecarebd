@@ -9,7 +9,7 @@
                 <h1 class="header-title">
                     {{-- <span>যারা বাবা-মা এবং নিজের সুস্বাস্থ্য নিয়ে চিন্তিত, তাদের জন্য</span>
                     <span class="hlight">অত্যন্ত কার্যকরী একটি ডিভাইস</span> --}}
-                    ১০০০/১২০০ টাকার সস্তা ব্লাড প্রেশার মেশিন খুজছেন ??🤔🤔
+                    ৮০০/৯০০ টাকার সস্তা ব্লাড প্রেশার মেশিন খুজছেন ??🤔🤔
                 </h1>
             </div>
             <h2 class="extra-title">
@@ -165,6 +165,7 @@
                 </div>
             </div>
             {{-- <div class="service-title bg-color">
+
             </div> --}}
         </div>
         {{-- </div> --}}
@@ -363,7 +364,7 @@
                                     this website, and for other purposes described in our <span><a href="#">privacy
                                             policy</a></span>.</p>
                                 <div class="place-order">
-                                    <button type="submit">Place order ৳<span class="total-bills">500</span></button>
+                                    <button type="submit">Place order ৳<span class="total-bills">{{$price}}</span></button>
                                 </div>
                             </div>
                         </div>
