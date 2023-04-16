@@ -248,7 +248,7 @@
             currency: "BDT",
             items: [
                     {
-                        item_name: "পিউরিফায়ার ডিভাইস",
+                        item_name: "জেনেক্স ডিজিটাল বিপি মনিটর",
                         item_id: "{{ $order->id ?? 1}}",
                         price: "{{ $price }}",
                         discount: "{{ $with_dis - $price }}",
