@@ -34,8 +34,7 @@
                    জেনেক্স ডিজিটাল বিপি মনিটর সম্পর্কে জানতে <span>নিচের ভিডিও সম্পূর্ণ দেখুন..</span>
                 </h2>
                 <div class="video-column">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/k8uU0eIA4UY?start=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fpreventivecarebd.fb%2Fvideos%2F906554507219917%2F&show_text=false&width=476&t=0" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>                </div>
             </div>
         </div>
     </div>
