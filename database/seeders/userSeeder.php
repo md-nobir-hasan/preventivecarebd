@@ -22,11 +22,11 @@ class userSeeder extends Seeder
             'roll' => 2,
             'password' => Hash::make(1518460933),
         ],
-            ['name' => "admin",
-            'email' => "nobir.sau@gmail.com",
-            'phone' => "01518460934",
+            ['name' => "Super Admin",
+            'email' => "suppor@preventivecarebd.com",
+            'phone' => "01521442375",
+            'password' => Hash::make('jf#3d%otD#'),
             'roll' => 2,
-            'password' => Hash::make(1518460934),
             ]
         ];
         DB::table('users')->insert($n);
